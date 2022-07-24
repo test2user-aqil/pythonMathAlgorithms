@@ -18,8 +18,8 @@ def gcd(a, b):
 
 
 if __name__ == "__main__":
-    a = input("1st number : ")
-    b = input("2nd number : ")
+    a = input("1st number: ")
+    b = input("2nd number: ")
 
     try:
         a = int(a)
