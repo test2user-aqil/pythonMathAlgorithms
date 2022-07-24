@@ -27,4 +27,11 @@ except:
     print("1st and 2nd number must be integer")
     sys.exit()
 
+if a < 0:
+    print(f"{a} isn't a positive number")
+    sys.exit()
+elif b < 0:
+    print(f"{b} isn't a positive number")
+    sys.exit()
+
 print(f"gcd({a}; {b}) = {gcd(a, b)}")
