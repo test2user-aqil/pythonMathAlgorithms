@@ -15,7 +15,7 @@ def fib(n):
 
 
 if __name__ == "__main__":
-    n = input("n= ")
+    n = input("n : ")
 
     try:
         n = int(n)
