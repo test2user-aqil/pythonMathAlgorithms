@@ -6,4 +6,5 @@ In this repository, I write simple math algorithms in [python](https://www.pytho
 ### Currently available  
 
 - `gcd.py` **Greatest Common Divisor** *( Euclid's algorithm )*
-- `lcm.py` **Least Common Multiple** 
+- `lcm.py` **Least Common Multiple**
+- `fib.py` **Fibonacci sequence**
