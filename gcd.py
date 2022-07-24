@@ -4,15 +4,17 @@ def gcd(a, b):
 
     elif b == 0:
         return a
-    
+
     elif a == b:
         return a
 
     if a > b:
-        return gcd(a-b, b)
-    return gcd(a, b-a)
+        return gcd(a - b, b)
 
-a = int(input("1st number :"))
-b = int(input("2nd number :"))
+    return gcd(a, b - a)
 
-print(f"GCD of {a} and {b} is {gcd(a, b)}")
+
+a = int(input("1st number : "))
+b = int(input("2nd number : "))
+
+print(f"gcd({a}; {b}) = {gcd(a, b)}")
