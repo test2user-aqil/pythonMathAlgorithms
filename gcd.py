@@ -1,3 +1,6 @@
+import sys
+
+
 def gcd(a, b):
     if a == 0:
         return b
@@ -14,7 +17,14 @@ def gcd(a, b):
     return gcd(a, b - a)
 
 
-a = int(input("1st number : "))
-b = int(input("2nd number : "))
+a = input("1st number : ")
+b = input("2nd number : ")
+
+try:
+    a = int(a)
+    b = int(b)
+except:
+    print("1st and 2nd number must be integer")
+    sys.exit()
 
 print(f"gcd({a}; {b}) = {gcd(a, b)}")
